@@ -24,3 +24,11 @@ Cuboid::Cuboid(double p, double q, double r, double s, double t, double u) {
     y = Point(r,s);
     z = Point(t,u);
 }
+
+double Cuboid::getVolume() {
+    double y1 = y.getY() - x.getY();
+    double x1 = y.getX() - x.getX();
+    double z1 = z.getZ() - x.getZ();
+    double volume = y1 * x1 * z1;
+    return volume;
+}

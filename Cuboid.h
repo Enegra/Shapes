@@ -16,6 +16,7 @@ public:
     Cuboid(Rectangle &rectangle, Point &point);
     Cuboid(Point &p, Point &q, Point &s);
     Cuboid(double p, double q, double r, double s, double t, double u);
+    double getVolume();
 };
 
 
