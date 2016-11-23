@@ -6,11 +6,13 @@
       <sourceFolder url="file://$MODULE_DIR$/Rectangle.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Shape.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/main.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Shape.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Cuboid.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Cuboid.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Point.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Point.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Square.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Shape.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Square.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Rectangle.cpp" isTestSource="false" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />

@@ -19,10 +19,14 @@ Rectangle::Rectangle(double p, double q, double r, double s) {
 }
 
 double Rectangle::getArea() {
-    double p = (x.getX() + y.getX())/2 - 1/2 * sqrt(pow(x.getX(),2) - 2*x.getX()*y.getX() + pow(x.getY(),2) - 2*x.getY()*y.getY() + pow(y.getX(),2) + pow(y.getY(),2));
-    double q = (x.getY() + y.getY())/2 - 1/2 * sqrt(-4*x.getX()*y.getX()+4*x.getX()*p + pow(x.getY(),2) - 2*x.getY()*y.getY() + 4*y.getX()*p + pow(y.getY(),2) - 4 * pow(p,2));
-    double distanceA = sqrt(pow((x.getX()-p),2)+ pow((x.getY()-q),2));
-    double distanceB = sqrt(pow((y.getX()-p),2)+ pow((y.getY()-q),2));
-    return distanceA*distanceB;
+//    double p = (x.getX() + y.getX())/2 - 1/2 * sqrt(pow(x.getX(),2) - 2*x.getX()*y.getX() + pow(x.getY(),2) - 2*x.getY()*y.getY() + pow(y.getX(),2) + pow(y.getY(),2));
+//    double q = (x.getY() + y.getY())/2 - 1/2 * sqrt(-4*x.getX()*y.getX()+4*x.getX()*p + pow(x.getY(),2) - 2*x.getY()*y.getY() + 4*y.getX()*p + pow(y.getY(),2) - 4 * pow(p,2));
+//    double distanceA = sqrt(pow((x.getX()-p),2)+ pow((x.getY()-q),2));
+//    double distanceB = sqrt(pow((y.getX()-p),2)+ pow((y.getY()-q),2));
+//    return distanceA*distanceB;
+    double y1 = y.getY() - x.getY();
+    double x1 = y.getX() - x.getX();
+    double area = y1 * x1;
+    return area;
 }
 
